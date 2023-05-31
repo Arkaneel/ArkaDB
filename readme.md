@@ -28,6 +28,8 @@ I'm Arkaneel Roy I'm 15 (2023) and I was feeling lazy to use `SQL` so I created 
 
 - Just download the source code as ZIP and add it into your project.
 
+[Download](https://github.com/Arkaneel/ArkaDB/archive/refs/tags/1.0.0.zip)
+
 ```PHP
 include 'ArkaDB/ArkaDB.php';
 ```
@@ -57,19 +59,19 @@ $database = ArkaDB('database','db');
     <th>Usage</th> 
   </tr>
   <tr>
-    <td>insert( )</td>
+    <td>insert()</td>
     <td>Inserts Data.</td>
   </tr>
   <tr>
-    <td>get( )</td>
+    <td>get()</td>
     <td>Gets Data through `Static Key`.</td>
   </tr>
   <tr>
-    <td>getAll( )</td>
+    <td>getAll()</td>
     <td>Gets all the Data registered in the database.</td>
   </tr>
     <tr>
-    <td>delete( )</td>
+    <td>delete()</td>
     <td>Deletes Data using `Static Key`.</td>
   </tr>
 </table>
