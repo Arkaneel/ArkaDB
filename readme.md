@@ -28,7 +28,7 @@ I'm Arkaneel Roy I'm 15 (2023) and I was feeling lazy to use `SQL` so I created 
 
 - Just download the source code as ZIP and add it into your project.
 
-[Download](https://github.com/Arkaneel/ArkaDB/archive/refs/tags/1.0.0.zip)
+[Download](https://github.com/Arkaneel/ArkaDB/archive/refs/tags/1.2.0.zip)
 
 ```PHP
 include 'ArkaDB/ArkaDB.php';
