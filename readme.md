@@ -36,13 +36,13 @@ I'm Arkaneel Roy I'm 15 (2023) and I created it as a hobby project but with the 
 
 - Alternatively you can clone this repo.
 
-```PHP
+```php
 git clone https://github.com/Arkaneel/ArkaDB
 ```
 
 Then include it as : 
 
-```PHP
+```php
 include 'ArkaDB/ArkaDB.php';
 ```
 
@@ -52,13 +52,13 @@ include 'ArkaDB/ArkaDB.php';
 
 - Initialization :
 
-```PHP 
+```php
 $database = ArkaDB('Name of Your Database','Name of Your Database Folder');
 ```
 
 - For Example : 
 
-```PHP 
+```php
 $database = ArkaDB('database','db');
 ```
 
@@ -101,7 +101,7 @@ $database = ArkaDB('database','db');
 
 ### 1.insert( )
 
-```PHP
+```php
 $database = new ArkaDB('data', 'data_folder');
 
 $data = [
@@ -118,7 +118,7 @@ echo "Inserted data with ID: " . $id;
 ```
 
 ### 2.Get( )
-```PHP
+```php
 $database = new ArkaDB('data', 'data_folder');
 
 
@@ -138,7 +138,7 @@ if ($data) {
 
 ### 3.GetAll( )
 
-```PHP 
+```php
 $database = new ArkaDB('data', 'data_folder');
 
 
@@ -152,7 +152,7 @@ print_r($allData);
 
 ### 4.update( )
 
-```PHP
+```php
 $arkaDB = new ArkaDB('data', 'data_folder');
 
 
@@ -175,7 +175,7 @@ if ($result) {
 ```
 ### 5.delete( )
 
-```PHP
+```php
 $database = new ArkaDB('data', 'data_folder');
 
 
